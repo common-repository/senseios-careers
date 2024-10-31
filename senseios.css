@@ -1,0 +1,67 @@
+label{
+	display:inline-block;
+	font-weight:bold;
+	margin-right:5px;
+	text-align: right;
+	width:100px;
+}
+
+input[type=text]{
+	width:300px;
+}
+
+#sensei_save_settings{
+	margin-right:10px;
+}
+
+#sensei_test_loading{
+	display:none;
+	height:30px;
+}
+
+#sensei_test_login_output{
+	float:right;
+	max-height:300px;
+	overflow-y:scroll;
+	width:200px;
+}
+
+	#sensei_test_login_output li:before{
+	    font-family: dashicons;
+        font-size: 20px;
+	    padding-right: 3px;
+	    vertical-align: sub;
+	}
+	#sensei_test_login_output li.sensei_true:before{
+		color:green;
+		content: "\f147";
+	}
+	#sensei_test_login_output li.sensei_false:before{
+		color:red;
+		content: "\f158";
+	}
+
+	#sensei_test_login_output li.sensei_false{
+		font-weight: bold;
+	}
+
+.sensei_summary_card{
+    background: white;
+    border: 1px solid #ccc;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+	float:left;
+	margin:0px 0px 10px 0px;
+    padding: 20px;
+    width: 90%;
+}
+
+.sensei_summary_card h3{
+	margin-top:0px;
+}
+
+.sensei_summary_card ul{
+    list-style: disc;
+    list-style-position: inside;
+	max-height:200px;
+	overflow-y:scroll;
+}
